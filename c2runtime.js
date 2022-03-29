@@ -22418,9 +22418,9 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Arr,
 	cr.plugins_.Audio,
 	cr.plugins_.Mouse,
-	cr.plugins_.Touch,
-	cr.plugins_.Sprite,
 	cr.plugins_.Text,
+	cr.plugins_.Sprite,
+	cr.plugins_.Touch,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.system_object.prototype.cnds.Repeat,
 	cr.plugins_.Text.prototype.acts.SetText,
@@ -22444,9 +22444,13 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.SetPos,
 	cr.plugins_.Mouse.prototype.exps.X,
 	cr.plugins_.Mouse.prototype.exps.Y,
-	cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
+	cr.plugins_.Mouse.prototype.cnds.IsButtonDown,
+	cr.plugins_.Sprite.prototype.acts.RotateClockwise,
+	cr.plugins_.Sprite.prototype.cnds.OnCollision,
 	cr.plugins_.Audio.prototype.acts.Play,
 	cr.plugins_.Arr.prototype.cnds.CompareXY,
+	cr.plugins_.Mouse.prototype.cnds.OnRelease,
+	cr.plugins_.Sprite.prototype.acts.SetAngle,
 	cr.plugins_.Arr.prototype.acts.SetXY
 ];};
 
